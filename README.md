@@ -24,11 +24,11 @@
 3. 검증 지표 : accuracy, sensitivity, specificity, roc, kappa
 
 ### 분석 방향
-1. 논문에서 제시항 모형별 성능 검증
+#1. 논문에서 제시항 모형별 성능 검증
    : 학년별/과목별 예측모형 평가결과 재현 및 비교
    
      => KNN, C5.0(의사결정나무), RF, SVM 4개 모델 구현 및 결과 분석
    
-2. 논문의 결과를 보완하기 위한 모델 개선안 제시
-2.1 Feature Selection : Correlation, Filter Methods 등을 활용해 모델의 복잡도를 줄이고 중요한 변수만을 선택
-2.2 Ensemble Learning : Voting, Bagging, Boosting 등을 활용해 모델의 정확도 향상
+#2. 논문의 결과를 보완하기 위한 모델 개선안 제시
+1) Feature Selection : Correlation, Filter Methods 등을 활용해 모델의 복잡도를 줄이고 중요한 변수만을 선택
+2) Ensemble Learning : Voting, Bagging, Boosting 등을 활용해 모델의 정확도 향상
